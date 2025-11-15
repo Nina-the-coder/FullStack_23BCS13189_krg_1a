@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Header */
+header {
+    text-align: center;
+    padding: 20px;
+    font-size: 28px;
+    font-weight: bold;
+    background: #1f1f1f;
+    color: white;
+}
+
+/* Center card */
+main {
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+}
+
+/* Card box */
+.card {
+    width: 320px;
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    text-align: center;
+    transition: transform 0.2s ease;
+}
+
+.card:hover {
+    transform: scale(1.03);
+}
+
+/* Image */
+.img-box img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.details {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 5px;
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.name {
+    font-weight: bold;
+}
+
+.price {
+    color: green;
+    font-weight: bold;
+}
+
+.desc {
+    font-size: 15px;
+    color: #555;
+    margin: 10px 0;
+}
+
+/* Button */
+.btn {
+    width: 100%;
+    background: blue;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: 0.2s ease;
+}
+
+.btn:hover {
+    background: #005ce6;
+}
